@@ -1,25 +1,3 @@
-@font-face {
-  font-family: "Asemic";
-  src: url("./fonts/pixel-small.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-[class*="icon-"]:before {
-  display: inline-block;
-  font-family: "Asemic";
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-@font-face {
-  font-family: "AmityJack";
-  src: url("./fonts/AmityJack.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
 html,
 body,
 p,
@@ -45,10 +23,5 @@ textarea,
 form,
 canvas,
 figcaption {
-  font-family: "Asemic", "Arial" !important;
-}
-
-code,
-pre {
   font-family: "Asemic", "Arial" !important;
 }

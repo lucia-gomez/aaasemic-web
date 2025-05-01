@@ -27,8 +27,7 @@
         "main.css",
         "fonts/pixel.ttf",
         "fonts/pixel-small.ttf",
-        "fonts/pixel-line.ttf",
-        "fonts/AmityJack.ttf"
+        "fonts/pixel-line.ttf"
       ],
       "matches": ["<all_urls>"]
     }
