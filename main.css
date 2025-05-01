@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Asemic";
+  src: url("./fonts/pixel-small.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*="icon-"]:before {
+  display: inline-block;
+  font-family: "Asemic";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: "AmityJack";
+  src: url("./fonts/AmityJack.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+span,
+div,
+code,
+pre,
+blockquote,
+i,
+b,
+svg,
+button,
+input,
+select,
+textarea,
+form,
+canvas,
+figcaption {
+  font-family: "Asemic", "Arial" !important;
+}
+
+code,
+pre {
+  font-family: "Asemic", "Arial" !important;
+}
